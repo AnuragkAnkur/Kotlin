@@ -1,10 +1,13 @@
 package TestCovereageThroughTeamcity_KotlinPoc
 
-import Orders_KotlinPoC_AsosCommerceOrdersKotlinPoc.buildTypes.TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage
+import TestCovereageThroughTeamcity_KotlinPoc.vcsRoots.*
 import TestCovereageThroughTeamcity_KotlinPoc.vcsRoots.TestCovereageThroughTeamcity_KotlinPoc_KotlinGitVcs
-import jetbrains.buildServer.configs.kotlin.v10.BuildType
+import jetbrains.buildServer.configs.kotlin.v10.*
 import jetbrains.buildServer.configs.kotlin.v10.Project
+import jetbrains.buildServer.configs.kotlin.v10.ProjectFeature
+import jetbrains.buildServer.configs.kotlin.v10.ProjectFeature.*
 import jetbrains.buildServer.configs.kotlin.v10.projectFeatures.VersionedSettings
+import jetbrains.buildServer.configs.kotlin.v10.projectFeatures.VersionedSettings.*
 import jetbrains.buildServer.configs.kotlin.v10.projectFeatures.versionedSettings
 
 object Project : Project({
@@ -20,7 +23,7 @@ object Project : Project({
         versionedSettings {
             id = "PROJECT_EXT_1"
             mode = VersionedSettings.Mode.ENABLED
-            buildSettingsMode = VersionedSettings.BuildSettingsMode.PREFER_SETTINGS_FROM_VCS
+            buildSettingsMode = VersionedSettings.BuildSettingsMode.USE_CURRENT_SETTINGS
             rootExtId = TestCovereageThroughTeamcity_KotlinPoc_KotlinGitVcs.extId
             showChanges = true
             settingsFormat = VersionedSettings.Format.KOTLIN
@@ -44,7 +47,4 @@ object Project : Project({
             param("title", "New chart title")
         }
     }
-    buildTypesOrder = arrayListOf(
-            TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage
-    ) as List<BuildType>?
 })
