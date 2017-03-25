@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>HelloWorldApp</id>
+    <version>$version$</version>
+    <title>HelloWorldApp</title>
+    <authors>unoasos@asos.com</authors>
+    <owners>ASOS.COM</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is an HelloWorldApp project</description>
+    <language>en-gb</language>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\*.*" exclude="**\*.pdb;**\*.xml" />
+  </files>
+  </package>

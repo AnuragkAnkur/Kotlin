@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="commons-jexl3-3.0">
+    <CLASSES>
+      <root url="jar://C:/TeamCity/webapps/ROOT/WEB-INF/plugins/.unpacked/configs-dsl/server/commons-jexl3-3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -9,15 +9,17 @@
               <CompilerSettings />
             </option>
             <option name="k2jsCompilerArguments">
-              <K2JSCompilerArguments />
+              <K2JSCompilerArguments>
+                <option name="moduleKind" value="plain" />
+              </K2JSCompilerArguments>
             </option>
             <option name="k2jvmCompilerArguments">
-              <K2JVMCompilerArguments />
+              <K2JVMCompilerArguments>
+                <option name="jvmTarget" value="1.6" />
+              </K2JVMCompilerArguments>
             </option>
             <option name="_commonCompilerArguments">
               <DummyImpl>
-                <option name="languageVersion" value="1.0" />
-                <option name="apiVersion" value="1.0" />
                 <option name="pluginClasspaths">
                   <array />
                 </option>
@@ -49,6 +51,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="configs-dsl-kotlin-10.0.5" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+    <orderEntry type="library" name="git-server" level="project" />
+    <orderEntry type="library" name="kotlin-compiler-embeddable-1.0.3" level="project" />
+    <orderEntry type="library" name="commons-jexl3-3.0" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.teamcity:configs-dsl-kotlin:10.0.4" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-compiler-embeddable:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.teamcity:configs-dsl-kotlin-ant:1.0-SNAPSHOT" level="project" />

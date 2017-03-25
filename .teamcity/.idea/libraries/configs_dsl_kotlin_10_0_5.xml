@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="configs-dsl-kotlin-10.0.5">
+    <CLASSES>
+      <root url="jar://C:/TeamCity/webapps/ROOT/WEB-INF/plugins/.unpacked/configs-dsl/server/configs-dsl-kotlin-10.0.5.jar!/" />
+      <root url="jar://C:/TeamCity/webapps/ROOT/WEB-INF/plugins/.unpacked/configs-dsl/server/configs-dsl-server-10.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

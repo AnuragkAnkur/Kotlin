@@ -1,11 +1,10 @@
 package TestCovereageThroughTeamcity_KotlinPoc
 
-import TestCovereageThroughTeamcity_KotlinPoc.vcsRoots.*
+import Orders_KotlinPoC_AsosCommerceOrdersKotlinPoc.buildTypes.TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage
 import TestCovereageThroughTeamcity_KotlinPoc.vcsRoots.TestCovereageThroughTeamcity_KotlinPoc_KotlinGitVcs
-import jetbrains.buildServer.configs.kotlin.v10.*
+import jetbrains.buildServer.configs.kotlin.v10.BuildType
 import jetbrains.buildServer.configs.kotlin.v10.Project
 import jetbrains.buildServer.configs.kotlin.v10.projectFeatures.VersionedSettings
-import jetbrains.buildServer.configs.kotlin.v10.projectFeatures.VersionedSettings.*
 import jetbrains.buildServer.configs.kotlin.v10.projectFeatures.versionedSettings
 
 object Project : Project({
@@ -26,5 +25,26 @@ object Project : Project({
             showChanges = true
             settingsFormat = VersionedSettings.Format.KOTLIN
         }
+        feature {
+            id = "PROJECT_EXT_103"
+            type = "project-graphs"
+            param("defaultFilters", "")
+            param("hideFilters", "")
+            param("series", """
+                [
+                  {
+                    "type": "valueType",
+                    "title": "BuildTestStatus",
+                    "sourceBuildTypeId": "TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage",
+                    "key": "BuildTestStatus"
+                  }
+                ]
+            """.trimIndent())
+            param("seriesTitle", "Serie")
+            param("title", "New chart title")
+        }
     }
+    buildTypesOrder = arrayListOf(
+            TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage
+    ) as List<BuildType>?
 })

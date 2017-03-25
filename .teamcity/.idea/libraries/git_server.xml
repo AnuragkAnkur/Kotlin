@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="git-server">
+    <CLASSES>
+      <root url="jar://C:/TeamCity/webapps/ROOT/WEB-INF/plugins/.unpacked/jetbrains.git/server/git-server.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
