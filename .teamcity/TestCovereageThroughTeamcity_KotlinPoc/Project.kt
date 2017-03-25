@@ -23,7 +23,7 @@ object Project : Project({
         versionedSettings {
             id = "PROJECT_EXT_1"
             mode = VersionedSettings.Mode.ENABLED
-            buildSettingsMode = VersionedSettings.BuildSettingsMode.USE_CURRENT_SETTINGS
+            buildSettingsMode = VersionedSettings.BuildSettingsMode.PREFER_SETTINGS_FROM_VCS
             rootExtId = TestCovereageThroughTeamcity_KotlinPoc_KotlinGitVcs.extId
             showChanges = true
             settingsFormat = VersionedSettings.Format.KOTLIN
