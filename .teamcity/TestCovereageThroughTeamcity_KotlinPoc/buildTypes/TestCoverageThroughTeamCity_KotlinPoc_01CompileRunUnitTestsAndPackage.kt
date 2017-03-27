@@ -1,5 +1,6 @@
 package TestCoverageThroughTeamCity_KotlinPoc.buildTypes
 
+import TestCovereageThroughTeamcity_KotlinPoc.vcsRoots.TestCovereageThroughTeamcity_KotlinPoc_KotlinGitVcs
 import jetbrains.buildServer.configs.kotlin.v10.*
 
 object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : BuildType({
@@ -21,7 +22,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
     }
 
     vcs {
-        root("Commerce_VstsAsosCommerce")
+        root(TestCovereageThroughTeamcity_KotlinPoc_KotlinGitVcs)
 
         cleanCheckout = true
     }

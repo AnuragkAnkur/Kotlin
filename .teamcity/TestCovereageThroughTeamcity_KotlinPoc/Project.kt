@@ -1,5 +1,6 @@
 package TestCovereageThroughTeamcity_KotlinPoc
 
+import TestCoverageThroughTeamCity_KotlinPoc.buildTypes.TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage
 import TestCovereageThroughTeamcity_KotlinPoc.vcsRoots.TestCovereageThroughTeamcity_KotlinPoc_KotlinGitVcs
 import jetbrains.buildServer.configs.kotlin.v10.*
 import jetbrains.buildServer.configs.kotlin.v10.Project
@@ -24,26 +25,6 @@ object Project : Project({
             showChanges = true
             settingsFormat = VersionedSettings.Format.KOTLIN
         }
-        feature {
-            id = "PROJECT_EXT_103"
-            type = "project-graphs"
-            param("defaultFilters", "")
-            param("hideFilters", "")
-            param("series", """
-                [
-                  {
-                    "type": "valueType",
-                    "title": "BuildTestStatus",
-                    "sourceBuildTypeId": "TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage",
-                    "key": "BuildTestStatus"
-                  }
-                ]
-            """.trimIndent())
-            param("seriesTitle", "Serie")
-            param("title", "New chart title")
-        }
     }
-    buildTypesOrder = arrayListOf(
-            TestCoverageThroughTeamCity_KotlinPoc.buildTypes.TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage
-    ) as List<BuildType>?
+    buildType(TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage)
 })
