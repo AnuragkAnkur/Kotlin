@@ -1,13 +1,9 @@
 package TestCovereageThroughTeamcity_KotlinPoc
 
-import TestCovereageThroughTeamcity_KotlinPoc.vcsRoots.*
 import TestCovereageThroughTeamcity_KotlinPoc.vcsRoots.TestCovereageThroughTeamcity_KotlinPoc_KotlinGitVcs
 import jetbrains.buildServer.configs.kotlin.v10.*
 import jetbrains.buildServer.configs.kotlin.v10.Project
-import jetbrains.buildServer.configs.kotlin.v10.ProjectFeature
-import jetbrains.buildServer.configs.kotlin.v10.ProjectFeature.*
 import jetbrains.buildServer.configs.kotlin.v10.projectFeatures.VersionedSettings
-import jetbrains.buildServer.configs.kotlin.v10.projectFeatures.VersionedSettings.*
 import jetbrains.buildServer.configs.kotlin.v10.projectFeatures.versionedSettings
 
 object Project : Project({
@@ -47,4 +43,7 @@ object Project : Project({
             param("title", "New chart title")
         }
     }
+    buildTypesOrder = arrayListOf(
+            TestCoverageThroughTeamCity_KotlinPoc.buildTypes.TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage
+    ) as List<BuildType>?
 })
