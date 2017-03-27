@@ -38,11 +38,6 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
         errorMessage = true
     }
 
-    requirements{
-        exists("DotNetFramework4.5.2_x64", "RQ_201")
-        exists("VS2015")
-    }
-
     triggers {
         trigger {
             id = "vcsTrigger"
