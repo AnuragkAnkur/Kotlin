@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24cfe74c-b5f0-4a43-b1cd-e2e756a1cb94" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Orders_KotlinPoC_dsl.iml" afterPath="$PROJECT_DIR$/Orders_KotlinPoC_dsl.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.kt" afterPath="$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,21 +20,11 @@
       <file leaf-file-name="Project.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/Project.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="273">
+              <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="22" />
               <folding>
                 <element signature="e#48#550#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VersionedSettingsKt.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/teamcity/configs-dsl-kotlin-bundled/1.0-SNAPSHOT/configs-dsl-kotlin-bundled-1.0-20170324.092430-1.jar!/jetbrains/buildServer/configs/kotlin/v10/projectFeatures/VersionedSettingsKt.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="68" lean-forward="false" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -61,8 +52,8 @@
       <file leaf-file-name="TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="412">
+              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="e#58#280#0" expanded="true" />
               </folding>
@@ -70,11 +61,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BuildType.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/TeamCity/webapps/ROOT/WEB-INF/plugins/.unpacked/configs-dsl/server/configs-dsl-kotlin-10.0.5.jar!/jetbrains/buildServer/configs/kotlin/v10/BuildType.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="78" lean-forward="true" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildTypeSettings.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/TeamCity/webapps/ROOT/WEB-INF/plugins/.unpacked/configs-dsl/server/configs-dsl-kotlin-10.0.5.jar!/jetbrains/buildServer/configs/kotlin/v10/BuildTypeSettings.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="68" column="80" lean-forward="false" selection-start-line="68" selection-start-column="80" selection-end-line="68" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VcsSettings.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/TeamCity/webapps/ROOT/WEB-INF/plugins/.unpacked/configs-dsl/server/configs-dsl-kotlin-10.0.5.jar!/jetbrains/buildServer/configs/kotlin/v10/VcsSettings.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="plugin-settings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/pluginData/plugin-settings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="63">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,6 +125,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>buildN</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -121,6 +147,9 @@
         <option value="$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/buildTypes/Orders_KotlinPoC_AsosCommerceOrdersKotlinPoc_01CompileRunUnitTestsAndPackage.kt" />
         <option value="C:/TeamCity/webapps/ROOT/WEB-INF/plugins/.unpacked/configs-dsl/server/configs-dsl-kotlin-10.0.5.jar!/jetbrains/buildServer/configs/kotlin/v10/Project.class" />
         <option value="$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/Project.kt" />
+        <option value="C:/TeamCity/webapps/ROOT/WEB-INF/plugins/.unpacked/configs-dsl/server/configs-dsl-kotlin-10.0.5.jar!/jetbrains/buildServer/configs/kotlin/v10/BuildType.class" />
+        <option value="C:/TeamCity/webapps/ROOT/WEB-INF/plugins/.unpacked/configs-dsl/server/configs-dsl-kotlin-10.0.5.jar!/jetbrains/buildServer/configs/kotlin/v10/BuildTypeSettings.class" />
+        <option value="C:/TeamCity/webapps/ROOT/WEB-INF/plugins/.unpacked/configs-dsl/server/configs-dsl-kotlin-10.0.5.jar!/jetbrains/buildServer/configs/kotlin/v10/VcsSettings.class" />
         <option value="$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.kt" />
       </list>
     </option>
@@ -226,80 +255,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Orders_KotlinPoC_dsl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".teamcity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestCovereageThroughTeamcity_KotlinPoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Orders_KotlinPoC_dsl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".teamcity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestCovereageThroughTeamcity_KotlinPoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vcsRoots" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Orders_KotlinPoC_dsl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".teamcity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestCoverageThroughTeamCity_KotlinPoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buildTypes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -309,7 +264,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/vsts/Asos/Commerce/OMScratchPad/KotlinPoC/.teamcity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Poc/.teamcity" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -733,12 +688,12 @@
       <updated>1490477820782</updated>
       <workItem from="1490477823555" duration="3970000" />
       <workItem from="1490610374814" duration="9002000" />
-      <workItem from="1490694110081" duration="142000" />
+      <workItem from="1490694110081" duration="5498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13114000" />
+    <option name="totallyTimeSpent" value="18470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-1089" width="1938" height="1098" extended-state="6" />
@@ -953,14 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/project-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="95" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/settings.kts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -969,18 +916,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/TeamCity/webapps/ROOT/WEB-INF/plugins/.unpacked/configs-dsl/server/configs-dsl-kotlin-10.0.5.jar!/jetbrains/buildServer/configs/kotlin/v10/BuildType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="78" lean-forward="true" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/TeamCity/webapps/ROOT/WEB-INF/plugins/.unpacked/configs-dsl/server/configs-dsl-kotlin-10.0.5.jar!/jetbrains/buildServer/configs/kotlin/v10/BuildTypeSettings.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="68" column="80" lean-forward="false" selection-start-line="68" selection-start-column="80" selection-end-line="68" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/TeamCity/webapps/ROOT/WEB-INF/plugins/.unpacked/configs-dsl/server/configs-dsl-kotlin-10.0.5.jar!/jetbrains/buildServer/configs/kotlin/v10/VcsSettings.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/pluginData/plugin-settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/project-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="95" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="95" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/Project.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        <state relative-caret-position="273">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="22" />
           <folding>
             <element signature="e#48#550#0" expanded="true" />
           </folding>
@@ -989,8 +968,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="412">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="e#58#280#0" expanded="true" />
           </folding>
@@ -1062,11 +1041,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>commons-jexl3-3.0</last-edited>
+          <last-edited>configs-dsl-kotlin-10.0.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.40992647" />
               </list>
             </option>
           </splitter-proportions>

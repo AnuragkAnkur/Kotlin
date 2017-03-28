@@ -10,6 +10,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
     name = "01 - Compile, run unit tests and package"
 
     allowExternalStatus = true
+    buildNumberPattern = "%Version.Number%"
 
     params {
         param("Artifact.Paths", "")
@@ -19,18 +20,31 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
         param("Version.Major", "1")
         param("Version.Minor", "0")
         param("Version.Revision", "0")
+        param("Version.Number", "%Version.Major%.%Version.Minor%.%Version.Build%.%Version.Revision%")
         param("Source.Dir", "Source")
+        param("UnitTest.Path", """**\bin\**\*.UnitTests.dll""")
+        param("Solution.Path", """%Source.Dir%\%Solution.Name%""")
     }
 
     vcs {
         root(TestCovereageThroughTeamcity_KotlinPoc_KotlinGitVcs)
-
         cleanCheckout = true
+        checkoutMode = CheckoutMode.AUTO
     }
 
     steps{
         script{
             scriptContent = """Echo did something"""
+        }
+        step {
+            name = "Build Solution and Package"
+            type = "MSBuild"
+            param("build-file-path", "%Solution.Path%")
+            param("msbuild_version", "12.0")
+            param("octopus_octopack_package_version", "%build.number%")
+            param("run-platform", "x64")
+            param("runnerArgs", "/p:Configuration=%Build.Configuration% /verbosity:%MSBuild.Logging.Verbosity% %MSBuild.AdditionalParameters%")
+            param("toolsVersion", "12.0")
         }
     }
 
