@@ -19,6 +19,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
         param("Version.Major", "1")
         param("Version.Minor", "0")
         param("Version.Revision", "0")
+        param("Source.Dir", "Source")
     }
 
     vcs {
