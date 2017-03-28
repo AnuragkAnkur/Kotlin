@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <slackNotifications enabled="true">
+    <slackNotification channel="#order-management" enabled="true" mention-channel-enabled="true" mention-slack-user-enabled="true">
+      <states>
+        <state type="buildInterrupted" enabled="false" />
+        <state type="buildFinished" enabled="true" />
+        <state type="buildFixed" enabled="false" />
+        <state type="buildStarted" enabled="true" />
+        <state type="buildBroken" enabled="false" />
+        <state type="responsibilityChanged" enabled="false" />
+        <state type="buildFailed" enabled="true" />
+        <state type="beforeBuildFinish" enabled="false" />
+        <state type="buildSuccessful" enabled="true" />
+      </states>
+      <build-types enabled-for-all="false" enabled-for-subprojects="false">
+        <build-type id="bt1520" />
+      </build-types>
+      <content iconUrl="https://raw.githubusercontent.com/PeteGoo/tcSlackBuildNotifier/master/docs/TeamCity72x72.png" botName="TeamCity" maxCommitsToDisplay="5" showBuildAgent="false" showElapsedBuildTime="false" showCommits="false" showCommitters="false" showFailureReason="false" />
+    </slackNotification>
+    <slackNotification channel="#tech-ecom-orders" enabled="true" mention-channel-enabled="false" mention-slack-user-enabled="false">
+      <states>
+        <state type="buildInterrupted" enabled="false" />
+        <state type="buildFinished" enabled="true" />
+        <state type="buildFixed" enabled="false" />
+        <state type="buildStarted" enabled="true" />
+        <state type="buildBroken" enabled="false" />
+        <state type="responsibilityChanged" enabled="false" />
+        <state type="buildFailed" enabled="true" />
+        <state type="beforeBuildFinish" enabled="false" />
+        <state type="buildSuccessful" enabled="true" />
+      </states>
+      <build-types enabled-for-all="false" enabled-for-subprojects="false">
+        <build-type id="bt1520" />
+        <build-type id="bt1519" />
+      </build-types>
+    </slackNotification>
+  </slackNotifications>
+</settings>
+
