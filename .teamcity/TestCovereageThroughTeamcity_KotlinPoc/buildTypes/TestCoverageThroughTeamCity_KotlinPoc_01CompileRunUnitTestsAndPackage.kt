@@ -30,6 +30,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
         param("Version.Build", "%build.counter%")
         param("ProGet.BaseUrl", "https://proget.services.kingsway.asos.com")
         param("UnitTest.Path", """**\bin\**\*.UnitTests.dll""")
+        param("NuGet.DeploymentPackage.PublishUrl", "%ProGet.BaseUrl%/nuget/ASOSPackages")
     }
 
     vcs {
@@ -80,6 +81,16 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
             param("nuget.path", "%teamcity.tool.NuGet.CommandLine.DEFAULT%")
             param("nugetCustomPath", "%teamcity.tool.NuGet.CommandLine.DEFAULT%")
             param("nugetPathSelector", "%teamcity.tool.NuGet.CommandLine.DEFAULT%")
+        }
+        step {
+            name = "Publish Deployment Packages to Proget"
+            type = "jb.nuget.publish"
+            param("nuget.path", "%teamcity.tool.NuGet.CommandLine.DEFAULT%")
+            param("nuget.publish.files", "%Deployment.Package.Nupkg.Files%")
+            param("nuget.publish.source", "%NuGet.DeploymentPackage.PublishUrl%")
+            param("nugetCustomPath", "%teamcity.tool.NuGet.CommandLine.DEFAULT%")
+            param("nugetPathSelector", "%teamcity.tool.NuGet.CommandLine.DEFAULT%")
+            param("secure:nuget.api.key", "zxx42c5dac421341b5a95b0d1174d30844f669c6cfa04793bc30f25e61b28374048a158ab0297df86ad775d03cbe80d301b")
         }
     }
 
