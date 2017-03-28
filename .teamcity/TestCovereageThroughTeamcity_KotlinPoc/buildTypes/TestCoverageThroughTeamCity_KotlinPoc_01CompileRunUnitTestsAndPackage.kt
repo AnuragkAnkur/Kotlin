@@ -28,7 +28,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
         param("MSBuild.AdditionalParameters", "/maxcpucount")
         param("MSBuild.Logging.Verbosity", "normal")
         param("Version.Build", "%build.counter%")
-        param("ProGet.BaseUrl", "%https://proget.services.kingsway.asos.com%")
+        param("ProGet.BaseUrl", "https://proget.services.kingsway.asos.com")
     }
 
     vcs {
