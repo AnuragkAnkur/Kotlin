@@ -37,9 +37,6 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
     }
 
     steps{
-        script{
-            scriptContent = """Echo did something"""
-        }
         step {
             name = "Build Solution and Package"
             type = "MSBuild"
@@ -49,6 +46,15 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
             param("run-platform", "x64")
             param("runnerArgs", "/p:Configuration=%Build.Configuration% /verbosity:%MSBuild.Logging.Verbosity% %MSBuild.AdditionalParameters%")
             param("toolsVersion", "12.0")
+        }
+    }
+
+    features{
+        feature {
+            type = "JetBrains.AssemblyInfo"
+            param("assembly-format", "%Version.Major%.%Version.Minor%.0.0")
+            param("file-format", "%Version.Major%.%Version.Minor%.%Version.Build%.%Version.Revision%")
+            param("info-format", "%Version.Number%")
         }
     }
 
