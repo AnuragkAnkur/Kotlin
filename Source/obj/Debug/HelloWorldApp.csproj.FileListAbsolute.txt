@@ -1,6 +1,5 @@
 C:\KotlinProject\Kotlin\Source\bin\Debug\HelloWorldApp.exe.config
 C:\KotlinProject\Kotlin\Source\bin\Debug\HelloWorldApp.exe
 C:\KotlinProject\Kotlin\Source\bin\Debug\HelloWorldApp.pdb
-C:\KotlinProject\Kotlin\Source\obj\Debug\HelloWorldApp.csprojResolveAssemblyReference.cache
 C:\KotlinProject\Kotlin\Source\obj\Debug\HelloWorldApp.exe
 C:\KotlinProject\Kotlin\Source\obj\Debug\HelloWorldApp.pdb

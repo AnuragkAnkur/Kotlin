@@ -51,7 +51,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Source\HelloWorldApp.csproj">
+    <ProjectReference Include="..\HelloWorldApp.csproj">
       <Project>{2E0E0A29-81CA-4AC3-A3B1-2F1E19F110FE}</Project>
       <Name>HelloWorldApp</Name>
     </ProjectReference>
