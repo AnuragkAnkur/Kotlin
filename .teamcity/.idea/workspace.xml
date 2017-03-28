@@ -48,8 +48,8 @@
       <file leaf-file-name="TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-368">
-              <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="664">
+              <caret line="69" column="56" lean-forward="false" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="56" />
               <folding>
                 <element signature="e#58#280#0" expanded="true" />
               </folding>
@@ -684,12 +684,12 @@
       <updated>1490477820782</updated>
       <workItem from="1490477823555" duration="3970000" />
       <workItem from="1490610374814" duration="9002000" />
-      <workItem from="1490694110081" duration="10793000" />
+      <workItem from="1490694110081" duration="11371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23765000" />
+    <option name="totallyTimeSpent" value="24343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-1089" width="1938" height="1098" extended-state="7" />
@@ -964,8 +964,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="664">
+          <caret line="69" column="56" lean-forward="false" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="56" />
           <folding>
             <element signature="e#58#280#0" expanded="true" />
           </folding>

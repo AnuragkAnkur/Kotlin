@@ -14,3 +14,5 @@ C:\KotlinProject\Kotlin\Source\HelloWorldApp.UnitTests\bin\Debug\HelloWorldApp.p
 C:\KotlinProject\Kotlin\Source\HelloWorldApp.UnitTests\obj\Debug\HelloWorldApp.UnitTests.csprojResolveAssemblyReference.cache
 C:\KotlinProject\Kotlin\Source\HelloWorldApp.UnitTests\obj\Debug\HelloWorldApp.UnitTests.dll
 C:\KotlinProject\Kotlin\Source\HelloWorldApp.UnitTests\obj\Debug\HelloWorldApp.UnitTests.pdb
+C:\KotlinProject\Kotlin\Source\HelloWorldApp.UnitTests\bin\Debug\nunit.framework.dll
+C:\KotlinProject\Kotlin\Source\HelloWorldApp.UnitTests\bin\Debug\nunit.framework.xml
