@@ -29,6 +29,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
         param("MSBuild.Logging.Verbosity", "normal")
         param("Version.Build", "%build.counter%")
         param("ProGet.BaseUrl", "https://proget.services.kingsway.asos.com")
+        param("UnitTest.Path", """**\bin\**\*.UnitTests.dll""")
     }
 
     vcs {
@@ -57,6 +58,16 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
             param("run-platform", "x64")
             param("runnerArgs", "/p:Configuration=%Build.Configuration% /verbosity:%MSBuild.Logging.Verbosity% %MSBuild.AdditionalParameters%")
             param("toolsVersion", "12.0")
+        }
+        step {
+            name = "Run unit tests"
+            type = "NUnit"
+            param("dotNetTestRunner.Type", "NUnit")
+            param("nunit_enabled", "checked")
+            param("nunit_environment", "v4.0")
+            param("nunit_include", "%UnitTest.Path%")
+            param("nunit_version", "NUnit-2.6.4")
+            param("teamcity.tests.runRiskGroupTestsFirst", "recentlyFailed")
         }
     }
 
