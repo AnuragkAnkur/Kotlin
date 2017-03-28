@@ -28,6 +28,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
         param("MSBuild.AdditionalParameters", "/maxcpucount")
         param("MSBuild.Logging.Verbosity", "normal")
         param("Version.Build", "%build.counter%")
+        param("ProGet.BaseUrl", "%https://proget.services.kingsway.asos.com%")
     }
 
     vcs {
@@ -37,6 +38,16 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
     }
 
     steps{
+        step {
+            name = "Nuget Restore"
+            type = "jb.nuget.installer"
+            param("nuget.path", "%teamcity.tool.NuGet.CommandLine.3.5.0%")
+            param("nuget.restore.commandline", "-verbosity detailed")
+            param("nuget.sources", "%ProGet.BaseUrl%/nuget/ASOS")
+            param("nuget.updatePackages.mode", "sln")
+            param("sln.path", "%Solution.Path%")
+            param("toolPathSelector", "%teamcity.tool.NuGet.CommandLine.3.5.0%")
+        }
         step {
             name = "Build Solution and Package"
             type = "MSBuild"
