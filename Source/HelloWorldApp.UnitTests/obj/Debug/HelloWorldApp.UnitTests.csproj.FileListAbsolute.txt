@@ -1,0 +1,9 @@
+C:\KotlinProject\Kotlin\HelloWorldApp.UnitTests\bin\Debug\HelloWorldApp.UnitTests.dll
+C:\KotlinProject\Kotlin\HelloWorldApp.UnitTests\bin\Debug\HelloWorldApp.UnitTests.pdb
+C:\KotlinProject\Kotlin\HelloWorldApp.UnitTests\bin\Debug\HelloWorldApp.exe
+C:\KotlinProject\Kotlin\HelloWorldApp.UnitTests\bin\Debug\nunit.framework.dll
+C:\KotlinProject\Kotlin\HelloWorldApp.UnitTests\bin\Debug\HelloWorldApp.pdb
+C:\KotlinProject\Kotlin\HelloWorldApp.UnitTests\bin\Debug\nunit.framework.xml
+C:\KotlinProject\Kotlin\HelloWorldApp.UnitTests\obj\Debug\HelloWorldApp.UnitTests.csprojResolveAssemblyReference.cache
+C:\KotlinProject\Kotlin\HelloWorldApp.UnitTests\obj\Debug\HelloWorldApp.UnitTests.dll
+C:\KotlinProject\Kotlin\HelloWorldApp.UnitTests\obj\Debug\HelloWorldApp.UnitTests.pdb
