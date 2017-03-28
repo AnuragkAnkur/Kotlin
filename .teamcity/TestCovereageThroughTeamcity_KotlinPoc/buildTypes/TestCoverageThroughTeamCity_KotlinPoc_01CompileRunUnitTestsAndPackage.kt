@@ -25,7 +25,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
         param("UnitTest.Path", """**\bin\**\*.UnitTests.dll""")
         param("Solution.Path", """%Source.Dir%\%Solution.Name%""")
         param("Build.Configuration", "Debug")
-        param("MSBuild.AdditionalParameter", "/maxcpucount")
+        param("MSBuild.AdditionalParameters", "/maxcpucount")
         param("MSBuild.Logging.Verbosity", "normal")
         param("Version.Build", "%build.counter%")
     }
