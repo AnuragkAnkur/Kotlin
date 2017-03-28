@@ -24,7 +24,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
         param("Source.Dir", "Source")
         param("UnitTest.Path", """**\bin\**\*.UnitTests.dll""")
         param("Solution.Path", """%Source.Dir%\%Solution.Name%""")
-        param("Build.Configuration", "Debug")
+        param("Build.Configuration", "Release-Teamcity")
         param("MSBuild.AdditionalParameters", "/maxcpucount")
         param("MSBuild.Logging.Verbosity", "normal")
         param("Version.Build", "%build.counter%")
@@ -68,6 +68,18 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
             param("nunit_include", "%UnitTest.Path%")
             param("nunit_version", "NUnit-2.6.4")
             param("teamcity.tests.runRiskGroupTestsFirst", "recentlyFailed")
+        }
+        step {
+            name = "Create Deployment Package (for Octopus to deploy)"
+            type = "jb.nuget.pack"
+            param("nuget.pack.output.clean", "true")
+            param("nuget.pack.output.directory", """output\deployment""")
+            param("nuget.pack.properties", "Configuration=%Build.Configuration%")
+            param("nuget.pack.specFile", "%Deployment.Package.Nuspec.Files%")
+            param("nuget.pack.version", "%build.number%")
+            param("nuget.path", "%teamcity.tool.NuGet.CommandLine.DEFAULT%")
+            param("nugetCustomPath", "%teamcity.tool.NuGet.CommandLine.DEFAULT%")
+            param("nugetPathSelector", "%teamcity.tool.NuGet.CommandLine.DEFAULT%")
         }
     }
 
