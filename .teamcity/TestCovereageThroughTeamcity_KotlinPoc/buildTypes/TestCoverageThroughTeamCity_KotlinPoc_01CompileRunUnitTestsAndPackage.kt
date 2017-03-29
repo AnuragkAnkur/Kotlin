@@ -31,7 +31,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
         param("ProGet.BaseUrl", "https://proget.services.kingsway.asos.com")
         param("UnitTest.Path", """**\bin\**\*.UnitTests.dll""")
         param("NuGet.DeploymentPackage.PublishUrl", "%ProGet.BaseUrl%/nuget/ASOSPackages")
-        param("Deployment.Package.Nupkg.Files", "output\deployment\*.nupkg")
+        param("Deployment.Package.Nupkg.Files", """output\deployment\*.nupkg""")
 
     }
 
