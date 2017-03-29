@@ -28,9 +28,9 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
         param("MSBuild.AdditionalParameters", "/maxcpucount")
         param("MSBuild.Logging.Verbosity", "normal")
         param("Version.Build", "%build.counter%")
-        param("ProGet.BaseUrl", "https://proget.services.kingsway.asos.com")
+        param("ProGet.BaseUrl", "http://localhost:89")
         param("UnitTest.Path", """**\bin\**\*.UnitTests.dll""")
-        param("NuGet.DeploymentPackage.PublishUrl", "%ProGet.BaseUrl%/nuget/ASOSPackages")
+        param("NuGet.DeploymentPackage.PublishUrl", "%ProGet.BaseUrl%/nuget/Local")
         param("Deployment.Package.Nupkg.Files", """output\deployment\*.nupkg""")
 
     }
@@ -47,7 +47,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
             type = "jb.nuget.installer"
             param("nuget.path", "%teamcity.tool.NuGet.CommandLine.3.5.0%")
             param("nuget.restore.commandline", "-verbosity detailed")
-            param("nuget.sources", "%ProGet.BaseUrl%/nuget/ASOS")
+            param("nuget.sources", "https://www.nuget.org/api/v2/")
             param("nuget.updatePackages.mode", "sln")
             param("sln.path", "%Solution.Path%")
             param("toolPathSelector", "%teamcity.tool.NuGet.CommandLine.3.5.0%")
@@ -92,7 +92,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
             param("nuget.publish.source", "%NuGet.DeploymentPackage.PublishUrl%")
             param("nugetCustomPath", "%teamcity.tool.NuGet.CommandLine.DEFAULT%")
             param("nugetPathSelector", "%teamcity.tool.NuGet.CommandLine.DEFAULT%")
-            param("secure:nuget.api.key", "%teamcity_nuget_api_key_1490693204334%")
+            param("secure:nuget.api.key", "wTqQCkL6IMo6sCamyMGmQw==")
         }
     }
 

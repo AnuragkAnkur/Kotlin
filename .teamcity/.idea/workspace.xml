@@ -50,8 +50,8 @@
       <file leaf-file-name="TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+            <state relative-caret-position="172">
+              <caret line="94" column="67" lean-forward="false" selection-start-line="94" selection-start-column="67" selection-end-line="94" selection-end-column="67" />
               <folding>
                 <element signature="e#58#280#0" expanded="true" />
               </folding>
@@ -127,6 +127,7 @@
     <findStrings>
       <find>buildN</find>
       <find>Deployment.Package.Nuspec.Files</find>
+      <find>NuGet.DeploymentPackage.PublishUrl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -687,12 +688,12 @@
       <updated>1490477820782</updated>
       <workItem from="1490477823555" duration="3970000" />
       <workItem from="1490610374814" duration="9002000" />
-      <workItem from="1490694110081" duration="15989000" />
+      <workItem from="1490694110081" duration="20216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28961000" />
+    <option name="totallyTimeSpent" value="33188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-1089" width="1938" height="1098" extended-state="0" />
@@ -967,8 +968,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCovereageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+        <state relative-caret-position="172">
+          <caret line="94" column="67" lean-forward="false" selection-start-line="94" selection-start-column="67" selection-end-line="94" selection-end-column="67" />
           <folding>
             <element signature="e#58#280#0" expanded="true" />
           </folding>
