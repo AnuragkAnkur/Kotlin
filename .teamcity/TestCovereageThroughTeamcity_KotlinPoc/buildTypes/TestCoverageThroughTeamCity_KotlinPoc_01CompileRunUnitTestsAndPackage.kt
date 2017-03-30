@@ -47,7 +47,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
             type = "jb.nuget.installer"
             param("nuget.path", "%teamcity.tool.NuGet.CommandLine.3.5.0%")
             param("nuget.restore.commandline", "-verbosity detailed")
-            param("nuget.sources", "https://www.nuget.org/api/v2/")
+            param("nuget.sources", "%ProGet.BaseUrl%/nuget/Local")
             param("nuget.updatePackages.mode", "sln")
             param("sln.path", "%Solution.Path%")
             param("toolPathSelector", "%teamcity.tool.NuGet.CommandLine.3.5.0%")
