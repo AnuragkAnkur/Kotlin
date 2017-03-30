@@ -92,7 +92,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
             param("nuget.publish.source", "%NuGet.DeploymentPackage.PublishUrl%")
             param("nugetCustomPath", "%teamcity.tool.NuGet.CommandLine.DEFAULT%")
             param("nugetPathSelector", "%teamcity.tool.NuGet.CommandLine.DEFAULT%")
-            param("secure:nuget.api.key", "wTqQCkL6IMo6sCamyMGmQw==")
+            param("secure:nuget.api.key", "JrP9x14T83l8bUtA9rEjuQ==")
         }
     }
 
