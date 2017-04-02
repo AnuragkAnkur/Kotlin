@@ -1,8 +1,7 @@
 package TestCoverageThroughTeamCity_KotlinPoc.buildTypes
 
-import TestCovereageThroughTeamcity_KotlinPoc.vcsRoots.TestCovereageThroughTeamcity_KotlinPoc_KotlinGitVcs
+import TestCoverageThroughTeamcity_KotlinPoc.vcsRoots.TestCoverageThroughTeamcity_KotlinPoc_KotlinGitVcs
 import jetbrains.buildServer.configs.kotlin.v10.*
-import jetbrains.buildServer.configs.kotlin.v10.buildSteps.script
 
 object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : BuildType({
     uuid = "7d4d6c04-a359-4799-8c3c-dc9138ee760c"
@@ -36,7 +35,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
     }
 
     vcs {
-        root(TestCovereageThroughTeamcity_KotlinPoc_KotlinGitVcs)
+        root(TestCoverageThroughTeamcity_KotlinPoc_KotlinGitVcs)
         cleanCheckout = true
         checkoutMode = CheckoutMode.AUTO
     }

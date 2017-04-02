@@ -1,4 +1,4 @@
-package TestCovereageThroughTeamcity_KotlinPoc
+package TestCoverageThroughTeamcity_KotlinPoc
 
 import jetbrains.buildServer.configs.kotlin.v10.*
 
@@ -23,4 +23,4 @@ calling the subProjects() method in this project.
 */
 
 version = "10.0"
-project(TestCovereageThroughTeamcity_KotlinPoc.Project)
+project(TestCoverageThroughTeamcity_KotlinPoc.Project)

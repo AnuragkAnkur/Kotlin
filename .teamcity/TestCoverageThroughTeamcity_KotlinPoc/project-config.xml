@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="TestCovereageThroughTeamcity" uuid="86c98907-b825-403b-9b73-bc7ee5fa92f7" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/10.0/project-config.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="TestCoverageThroughTeamcity" uuid="86c98907-b825-403b-9b73-bc7ee5fa92f7" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/10.0/project-config.xsd">
   <name>Kotlin Poc</name>
   <description>For Setting up a kotlin project</description>
   <parameters />
@@ -8,7 +8,7 @@
       <parameters>
         <param name="buildSettings" value="PREFER_VCS" />
         <param name="enabled" value="true" />
-        <param name="rootId" value="TestCovereageThroughTeamcity_KotlinPoc_KotlinGitVcs" />
+        <param name="rootId" value="TestCoverageThroughTeamcity_KotlinPoc_KotlinGitVcs" />
         <param name="showChanges" value="false" />
       </parameters>
     </extension>
