@@ -5,7 +5,7 @@ import jetbrains.buildServer.configs.kotlin.v10.vcs.GitVcsRoot
 
 object TestCoverageThroughTeamcity_KotlinPoc_KotlinGitVcs : GitVcsRoot({
     uuid = "5b8589dd-eebe-40dc-906f-12d3fed366be"
-    extId = "TestCovreageThroughTeamcity_KotlinPoc_KotlinGitVcs"
+    extId = "TestCoverageThroughTeamcity_KotlinPoc_KotlinGitVcs"
     name = "Kotlin_Git_VCS"
     url = "https://github.com/AnuragkAnkur/Kotlin.git"
     pushUrl = "https://github.com/AnuragkAnkur/Kotlin.git"
