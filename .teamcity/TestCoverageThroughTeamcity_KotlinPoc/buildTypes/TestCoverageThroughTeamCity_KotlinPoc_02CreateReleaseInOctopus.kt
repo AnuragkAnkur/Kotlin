@@ -34,7 +34,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
     }
 
     dependencies {
-        dependency(TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage)
+        dependency(TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus)
         {
             snapshot {  }
         }
