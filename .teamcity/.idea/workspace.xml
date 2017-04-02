@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24cfe74c-b5f0-4a43-b1cd-e2e756a1cb94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TestCoverageThroughTeamCity_KotlinPoc/Project$1$1$1.class" afterPath="$PROJECT_DIR$/target/classes/TestCoverageThroughTeamCity_KotlinPoc/Project$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TestCoverageThroughTeamCity_KotlinPoc/Project$1$1.class" afterPath="$PROJECT_DIR$/target/classes/TestCoverageThroughTeamCity_KotlinPoc/Project$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TestCoverageThroughTeamCity_KotlinPoc/Project$1.class" afterPath="$PROJECT_DIR$/target/classes/TestCoverageThroughTeamCity_KotlinPoc/Project$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TestCoverageThroughTeamCity_KotlinPoc/Project.class" afterPath="$PROJECT_DIR$/target/classes/TestCoverageThroughTeamCity_KotlinPoc/Project.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TestCoverageThroughTeamCity_KotlinPoc/vcsRoots/TestCoverageThroughTeamcity_KotlinPoc_KotlinGitVcs$1.class" afterPath="$PROJECT_DIR$/target/classes/TestCoverageThroughTeamCity_KotlinPoc/vcsRoots/TestCoverageThroughTeamcity_KotlinPoc_KotlinGitVcs$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/Project.kt" afterPath="$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/Project.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="390">
+              <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="e#58#241#0" expanded="true" />
               </folding>
@@ -46,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Project.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Project.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/Project.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+            <state relative-caret-position="42">
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="e#47#616#0" expanded="true" />
               </folding>
@@ -100,8 +93,8 @@
         <option value="$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.kt" />
         <option value="$PROJECT_DIR$/Orders_KotlinPoC_AsosCommerceOrdersKotlinPoc/Project.kt" />
         <option value="$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/vcsRoots/TestCovereageThroughTeamcity_KotlinPoc_KotlinGitVcs.kt" />
-        <option value="$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/Project.kt" />
         <option value="$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus.kt" />
+        <option value="$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/Project.kt" />
       </list>
     </option>
   </component>
@@ -665,12 +658,12 @@
       <workItem from="1490876683052" duration="976000" />
       <workItem from="1490877758975" duration="299000" />
       <workItem from="1491171984203" duration="1871000" />
-      <workItem from="1491173901127" duration="439000" />
+      <workItem from="1491173901127" duration="653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37610000" />
+    <option name="totallyTimeSpent" value="37824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
@@ -1065,22 +1058,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/Project.kt">
+    <entry file="file://$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        <state relative-caret-position="390">
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
-            <element signature="e#47#616#0" expanded="true" />
+            <element signature="e#58#241#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus.kt">
+    <entry file="file://$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/Project.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="42">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="e#58#241#0" expanded="true" />
+            <element signature="e#47#616#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -27,6 +27,8 @@ object Project : Project({
         }
     }
 
-    buildType(TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage)
-    buildType (TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus)
+    buildTypesOrder = kotlin.collections.arrayListOf(
+            TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage,
+            TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus
+    )
 })
