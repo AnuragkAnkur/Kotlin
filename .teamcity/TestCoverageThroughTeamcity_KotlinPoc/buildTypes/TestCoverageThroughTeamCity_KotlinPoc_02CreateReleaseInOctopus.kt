@@ -20,6 +20,11 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
         password("ReleaseNotes.TeamCity.Password", "youni11#")
         param("ReleaseNotes.TeamCity.Uri", "http://localhost:8111")
         param("ReleaseNotes.TeamCity.UserId", "anuraga")
+        param("Nuget.Version", "3.4.4")
+        param("Octopus.Deployment.Timeout", "00:30:00")
+        param("Octopus.Project.Name", "Deploy HelloWorld")
+        param("Octopus.Uri", "http://localhost:90")
+
     }
 
     vcs {
@@ -43,7 +48,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
                 -TeamCityPassword %ReleaseNotes.TeamCity.Password%
                 -DiffTargetEnvironment "%ReleaseNotes.TargetDiffEnvironment%"
                 -OctopusURI %Octopus.Uri%
-                -octopusAPIKey %Octopus.ApiKey%
+                -octopusAPIKey %zxx17507688bb50ccb1ddb978fa8567e24777aef946ce4abc8041eca78dd7c34de0%
                 -octopusProject "%Octopus.Project.Name%"
                 -TeamCityProjectId "%teamcity.project.id%"
                 -BuildNumber "%env.BUILD_NUMBER%"
@@ -56,14 +61,12 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
         step {
             name = "Create release"
             type = "octopus.create.release"
-            param("octopus_host", "http://localhost:90")
-            param("Octopus.Deployment.Timeout", "00:30:00")
-            param("octopus_project_name", "Deploy HelloWorld")
+            param("octopus_host", "%Octopus.Uri%")
+            param("Octopus.Deployment.Timeout", "%Octopus.Deployment.Timeout%")
+            param("octopus_project_name", "%Octopus.Project.Name%")
             param("octopus_version", "3.0+")
             param("octopus_waitfordeployments", "true")
             param("secure:octopus_apikey", "zxx17507688bb50ccb1ddb978fa8567e24777aef946ce4abc8041eca78dd7c34de0")
-            param("octopus_releasenumber", "%dep.TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.build.number%")
-            param("Branch.Name", "%dep.TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.Branch.Name%")
             param("octopus_additionalcommandlinearguments", "--deploymenttimeout=%Octopus.Deployment.Timeout% --cancelontimeout --releasenotesfile ReleaseNotes.md")
         }
     }
