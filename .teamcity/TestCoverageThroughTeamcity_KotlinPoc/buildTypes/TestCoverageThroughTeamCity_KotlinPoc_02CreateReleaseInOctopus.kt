@@ -12,7 +12,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
     uuid = "50e5be90-f989-416f-9638-548295840cc5"
     extId = "TestCoverageThroughTeamcity_KotlinPoc_CreateReleaseInOctopus"
     name = "Create Release In Octopus"
-    buildNumberPattern = "%octopus_releasenumber%"
+    buildNumberPattern = "%dep.TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.build.number%"
 
     params{
         param("ReleaseNotes.AdditionalParams", "")
@@ -24,6 +24,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
         param("Octopus.Deployment.Timeout", "00:30:00")
         param("Octopus.Project.Name", "Deploy HelloWorld")
         param("Octopus.Uri", "http://localhost:90")
+        param("Api.Key", "zxx17507688bb50ccb1ddb978fa8567e24777aef946ce4abc8041eca78dd7c34de0")
 
     }
 
@@ -48,7 +49,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
                 -TeamCityPassword %ReleaseNotes.TeamCity.Password%
                 -DiffTargetEnvironment "%ReleaseNotes.TargetDiffEnvironment%"
                 -OctopusURI %Octopus.Uri%
-                -octopusAPIKey %zxx17507688bb50ccb1ddb978fa8567e24777aef946ce4abc8041eca78dd7c34de0%
+                -octopusAPIKey %Api.Key%
                 -octopusProject "%Octopus.Project.Name%"
                 -TeamCityProjectId "%teamcity.project.id%"
                 -BuildNumber "%env.BUILD_NUMBER%"
@@ -66,7 +67,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
             param("octopus_project_name", "%Octopus.Project.Name%")
             param("octopus_version", "3.0+")
             param("octopus_waitfordeployments", "true")
-            param("secure:octopus_apikey", "zxx17507688bb50ccb1ddb978fa8567e24777aef946ce4abc8041eca78dd7c34de0")
+            param("secure:octopus_apikey", "%Api.key%")
             param("octopus_additionalcommandlinearguments", "--deploymenttimeout=%Octopus.Deployment.Timeout% --cancelontimeout --releasenotesfile ReleaseNotes.md")
         }
     }

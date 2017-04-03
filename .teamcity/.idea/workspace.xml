@@ -30,8 +30,8 @@
       <file leaf-file-name="TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="1449">
+              <caret line="69" column="53" lean-forward="false" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
               <folding>
                 <element signature="e#58#364#0" expanded="true" />
               </folding>
@@ -673,7 +673,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47253000" />
+    <option name="totallyTimeSpent" value="47592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
@@ -1079,8 +1079,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="1449">
+          <caret line="69" column="53" lean-forward="false" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
           <folding>
             <element signature="e#58#364#0" expanded="true" />
           </folding>
