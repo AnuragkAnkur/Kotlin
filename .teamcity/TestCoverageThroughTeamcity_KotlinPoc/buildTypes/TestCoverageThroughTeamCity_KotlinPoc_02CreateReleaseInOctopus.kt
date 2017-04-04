@@ -63,7 +63,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
         step {
             name = "Create Release note"
             type = "simpleRunner"
-            param("script.content", """echo This is a release note > ReleaseNote.md""")
+            param("script.content", """echo This is a release note > ReleaseNotes.md""")
         }
         step {
             name = "Create release"
