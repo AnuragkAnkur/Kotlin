@@ -39,7 +39,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
             type = "simpleRunner"
             param("script.content", """C:\Teamcity\tools\NuGet.CommandLine.%Nuget.Version%\tools\NuGet.exe Install Asos.PlatformEngineering.ReleaseNotesGenerator -Source https://proget.services.kingsway.asos.com/nuget/ASOS -ExcludeVersion""")
         }*/
-        step {
+        /*step {
             name = "Generate Release Notes"
             type = "jetbrains_powershell"
             param("jetbrains_powershell_bitness", "x64")
@@ -58,6 +58,12 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
             """.trimIndent())
             param("jetbrains_powershell_script_file", """Asos.PlatformEngineering.ReleaseNotesGenerator\Generate-ReleaseNotes.ps1""")
             param("jetbrains_powershell_script_mode", "FILE")
+        }*/
+
+        step {
+            name = "Create Release note"
+            type = "simpleRunner"
+            param("script.content", """echo This is a release note > ReleaseNote.md""")
         }
         step {
             name = "Create release"
