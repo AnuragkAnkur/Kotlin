@@ -23,8 +23,8 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
         param("Nuget.Version", "3.4.4")
         param("Octopus.Deployment.Timeout", "00:30:00")
         param("Octopus.Project.Name", "Deploy HelloWorld")
-        param("Octopus.Uri", "http://localhost:90")
-        param("Api.Key", "API-VE5E6V9F7VIUKAQX8A61O2E4W")
+        param("Octopus.Uri", "http://localhost:90/")
+        param("Api.Key", """API-VE5E6V9F7VIUKAQX8A61O2E4W""")
 
     }
 
