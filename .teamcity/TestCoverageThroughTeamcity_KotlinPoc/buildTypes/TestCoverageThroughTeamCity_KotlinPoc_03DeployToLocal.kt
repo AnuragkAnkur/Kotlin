@@ -36,8 +36,10 @@ object TestCoverageThroughTeamCity_KotlinPoc_03DeployToLocal : BuildType({
             param("octopus_project_name", "%Octopus.Project.Name%")
             param("octopus_version", "3.0+")
             param("octopus_waitfordeployments", "true")
+            param("octopus_deployto", "local")
+            param("octopus_releasenumber", "latest")
             param("secure:octopus_apikey", "API-2SKUQZHX0XVUMGPUXMRVVN2XHAM")
-            param("octopus_additionalcommandlinearguments", "--deploymenttimeout=%Octopus.Deployment.Timeout% --cancelontimeout --releaseNumber=latest --deployto=local")
+            param("octopus_additionalcommandlinearguments", "--deploymenttimeout=%Octopus.Deployment.Timeout% --cancelontimeout")
         }
     }
 
