@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24cfe74c-b5f0-4a43-b1cd-e2e756a1cb94" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus.kt" afterPath="$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
-              <caret line="74" column="58" lean-forward="false" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
+              <caret line="74" column="12" lean-forward="false" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
               <folding>
                 <element signature="e#58#364#0" expanded="true" />
               </folding>
@@ -674,7 +673,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54450000" />
+    <option name="totallyTimeSpent" value="54732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-1089" width="1938" height="1098" extended-state="6" />
@@ -1090,7 +1089,7 @@
     <entry file="file://$PROJECT_DIR$/TestCoverageThroughTeamcity_KotlinPoc/buildTypes/TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="74" column="58" lean-forward="false" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
+          <caret line="74" column="12" lean-forward="false" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
           <folding>
             <element signature="e#58#364#0" expanded="true" />
           </folding>
