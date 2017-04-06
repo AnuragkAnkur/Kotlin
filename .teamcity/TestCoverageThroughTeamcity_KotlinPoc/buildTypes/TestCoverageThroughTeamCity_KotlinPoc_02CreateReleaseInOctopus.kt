@@ -15,18 +15,12 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
     buildNumberPattern = "%dep.TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.build.number%"
 
     params{
-        param("ReleaseNotes.AdditionalParams", "")
-        param("ReleaseNotes.TargetDiffEnvironment", "Production")
-        password("ReleaseNotes.TeamCity.Password", "youni11#")
-        param("ReleaseNotes.TeamCity.Uri", "http://localhost:8111")
-        param("ReleaseNotes.TeamCity.UserId", "anuraga")
         param("Nuget.Version", "3.4.4")
         param("Octopus.Deployment.Timeout", "00:30:00")
         param("Octopus.Project.Name", "Deploy HelloWorld")
         param("Octopus.Uri", "http://localhost:90/")
         param("Api.Key", """API-VE5E6V9F7VIUKAQX8A61O2E4W""")
         param("UpstreamBuildNumber", "%dep.TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.build.number%")
-
     }
 
     vcs {
@@ -35,32 +29,6 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
     }
 
     steps {
-        /*step {
-            name = "Download Generate-ReleaseNotes nuget package"
-            type = "simpleRunner"
-            param("script.content", """C:\Teamcity\tools\NuGet.CommandLine.%Nuget.Version%\tools\NuGet.exe Install Asos.PlatformEngineering.ReleaseNotesGenerator -Source https://proget.services.kingsway.asos.com/nuget/ASOS -ExcludeVersion""")
-        }*/
-        /*step {
-            name = "Generate Release Notes"
-            type = "jetbrains_powershell"
-            param("jetbrains_powershell_bitness", "x64")
-            param("jetbrains_powershell_scriptArguments", """
-                -TeamCityURI %ReleaseNotes.TeamCity.Uri%
-                -TeamCityUserId %ReleaseNotes.TeamCity.UserId%
-                -TeamCityPassword %ReleaseNotes.TeamCity.Password%
-                -DiffTargetEnvironment "%ReleaseNotes.TargetDiffEnvironment%"
-                -OctopusURI %Octopus.Uri%
-                -octopusAPIKey %Api.Key%
-                -octopusProject "%Octopus.Project.Name%"
-                -TeamCityProjectId "%teamcity.project.id%"
-                -BuildNumber "%env.BUILD_NUMBER%"
-                -BuildTypeId "%system.teamcity.buildType.id%"
-                %ReleaseNotes.AdditionalParams%
-            """.trimIndent())
-            param("jetbrains_powershell_script_file", """Asos.PlatformEngineering.ReleaseNotesGenerator\Generate-ReleaseNotes.ps1""")
-            param("jetbrains_powershell_script_mode", "FILE")
-        }*/
-
         step {
             name = "Create Release note"
             type = "simpleRunner"

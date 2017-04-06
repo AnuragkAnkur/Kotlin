@@ -2,6 +2,7 @@ package TestCoverageThroughTeamcity_KotlinPoc
 
 import TestCoverageThroughTeamCity_KotlinPoc.buildTypes.TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage
 import TestCoverageThroughTeamcity_KotlinPoc.buildTypes.TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus
+import TestCoverageThroughTeamcity_KotlinPoc.buildTypes.TestCoverageThroughTeamCity_KotlinPoc_03DeployToLocal
 import TestCoverageThroughTeamcity_KotlinPoc.vcsRoots.TestCoverageThroughTeamcity_KotlinPoc_KotlinGitVcs
 import jetbrains.buildServer.configs.kotlin.v10.Project
 import jetbrains.buildServer.configs.kotlin.v10.projectFeatures.VersionedSettings
@@ -29,4 +30,5 @@ object Project : Project({
 
     buildType(TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage)
     buildType(TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus)
+    buildType(TestCoverageThroughTeamCity_KotlinPoc_03DeployToLocal)
 })
