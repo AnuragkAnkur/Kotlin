@@ -25,6 +25,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
         param("Octopus.Project.Name", "Deploy HelloWorld")
         param("Octopus.Uri", "http://localhost:90/")
         param("Api.Key", """API-VE5E6V9F7VIUKAQX8A61O2E4W""")
+        param("UpstreamBuildNumber", "%dep.TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage.build.number%")
 
     }
 
@@ -71,6 +72,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
             param("octopus_host", "%Octopus.Uri%")
             param("Octopus.Deployment.Timeout", "%Octopus.Deployment.Timeout%")
             param("octopus_project_name", "%Octopus.Project.Name%")
+            param("octopus.version", "%UpstreamBuildNumber%")
             param("octopus_version", "3.0+")
             param("octopus_waitfordeployments", "true")
             param("secure:octopus_apikey", "API-2SKUQZHX0XVUMGPUXMRVVN2XHAM")
