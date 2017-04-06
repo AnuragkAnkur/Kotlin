@@ -32,7 +32,8 @@ object TestCoverageThroughTeamCity_KotlinPoc_03DeployToLocal : BuildType({
             type = "octopus.deploy.release"
             param("octopus_host", "%Octopus.Uri%")
             param("Octopus.Deployment.Timeout", "%Octopus.Deployment.Timeout%")
-            param("Octopus.Project.Name", "Deploy HelloWorld")
+            param("OctopusProject.Name", "Deploy HelloWorld")
+            param("octopus_project_name", "Deploy HelloWorld")
             param("octopus_version", "3.0+")
             param("octopus_waitfordeployments", "true")
             param("octopus_deployto", "local")
