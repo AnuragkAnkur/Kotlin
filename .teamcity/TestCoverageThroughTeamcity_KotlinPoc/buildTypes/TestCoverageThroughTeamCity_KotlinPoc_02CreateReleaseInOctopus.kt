@@ -73,7 +73,7 @@ object TestCoverageThroughTeamCity_KotlinPoc_02CreateReleaseInOctopus : BuildTyp
             param("octopus_project_name", "%Octopus.Project.Name%")
             param("octopus_version", "3.0+")
             param("octopus_waitfordeployments", "true")
-            param("secure:octopus_apikey", "%Api.key%")
+            param("secure:octopus_apikey", "API-2SKUQZHX0XVUMGPUXMRVVN2XHAM")
             param("octopus_additionalcommandlinearguments", "--deploymenttimeout=%Octopus.Deployment.Timeout% --cancelontimeout --releasenotesfile ReleaseNotes.md")
         }
     }
