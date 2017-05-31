@@ -31,7 +31,6 @@ object TestCoverageThroughTeamCity_KotlinPoc_01CompileRunUnitTestsAndPackage : B
         param("UnitTest.Path", """**\bin\**\*.UnitTests.dll""")
         param("NuGet.DeploymentPackage.PublishUrl", "%ProGet.BaseUrl%/nuget/Local")
         param("Deployment.Package.Nupkg.Files", """output\deployment\*.nupkg"""
-
     }
 
     vcs {
